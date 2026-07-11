@@ -24,6 +24,9 @@ export function Problem() {
               src="https://i.postimg.cc/FKXCqNVK/Copia-de-KCP-Bloco-3.webp" 
               alt="Pensamentos e bloqueios emocionais" 
               className="w-full h-auto"
+              loading="lazy"
+              width="1160"
+              height="990"
             />
           </div>
         </div>

@@ -12,6 +12,9 @@ export function FaqFooter() {
                src="https://i.postimg.cc/rw0XLXBQ/Chat-GPT-Image-10-de-jul-de-2026-16-51-03.webp" 
                alt="Mockup do Produto" 
                className="w-full h-full object-cover"
+               loading="lazy"
+               width="1024"
+               height="1024"
              />
           </div>
           <div className="w-full md:w-1/2 p-8 md:p-10 flex flex-col justify-center items-center text-center">
@@ -19,7 +22,10 @@ export function FaqFooter() {
               <img 
                 src="https://i.postimg.cc/28PwKsrb/novalogocodigo-copiar-4.webp" 
                 alt="Código Emocional da Riqueza - Protocolo de Desbloqueio" 
-                className="h-20 md:h-24 object-contain"
+                className="h-20 md:h-24 object-contain w-auto"
+                loading="lazy"
+                width="270"
+                height="112"
               />
             </div>
 
@@ -78,7 +84,10 @@ export function FaqFooter() {
             <img 
               src="https://i.postimg.cc/bNKTB7p2/novalogocodigo-copiar3.webp" 
               alt="Código Emocional da Riqueza - Protocolo de Desbloqueio" 
-              className="h-16 md:h-20 object-contain"
+              className="h-16 md:h-20 object-contain w-auto"
+              loading="lazy"
+              width="270"
+              height="112"
             />
           </div>
 

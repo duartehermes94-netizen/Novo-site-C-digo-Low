@@ -10,7 +10,10 @@ export function Hero() {
           <img 
             src="https://i.postimg.cc/bNKTB7p2/novalogocodigo-copiar3.webp" 
             alt="Código Emocional da Riqueza - Protocolo de Desbloqueio" 
-            className="h-16 md:h-20 object-contain"
+            className="h-16 md:h-20 object-contain w-auto"
+            fetchPriority="high"
+            width="270"
+            height="112"
           />
         </div>
 
@@ -39,6 +42,9 @@ export function Hero() {
               src="https://i.postimg.cc/9QFQKNdH/BLOQUEIO-EMOCIONAL.webp" 
               alt="Representação visual do cérebro com moedas" 
               className="w-full h-auto rounded-2xl shadow-2xl border border-gray-800/50"
+              fetchPriority="high"
+              width="1280"
+              height="960"
             />
           </div>
         </div>
@@ -89,7 +95,7 @@ function TestimonialItem({ imgUrl, summary, alt }: { imgUrl: string, summary: st
       <div className="absolute -top-12 md:-top-14 left-1/2 -translate-x-1/2 bg-[#F59E0B] text-gray-950 font-bold text-sm md:text-base px-4 py-2.5 rounded-xl shadow-lg w-11/12 max-w-[280px] text-center z-10">
         {summary}
       </div>
-      <img src={imgUrl} alt={alt} className="w-full h-auto rounded-2xl shadow-xl border border-gray-800 relative z-0" referrerPolicy="no-referrer" />
+      <img src={imgUrl} alt={alt} className="w-full h-auto rounded-2xl shadow-xl border border-gray-800 relative z-0" referrerPolicy="no-referrer" loading="lazy" width="750" height="1334" />
     </div>
   );
 }
