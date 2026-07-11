@@ -180,7 +180,7 @@ function FeatureCard({ icon, title, desc }: { icon: ReactNode, title: string, de
 function DeliverableCard({ title, desc, imagePlaceholder, imageBg, imageUrl }: { title: string, desc: string, imagePlaceholder: string, imageBg: string, imageUrl?: string }) {
   return (
     <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 flex flex-col md:flex-row">
-      <div className={`w-full md:w-2/5 p-8 flex items-center justify-center min-h-[250px] relative overflow-hidden ${imageBg}`}>
+      <div className={`w-full md:w-2/5 min-h-[240px] md:min-h-0 aspect-video md:aspect-auto relative overflow-hidden ${imageBg}`}>
         {imageUrl ? (
           <img src={imageUrl} alt={title} className="w-full h-full object-cover absolute inset-0" loading="lazy" width="662" height="465" />
         ) : (
@@ -200,7 +200,7 @@ function DeliverableCard({ title, desc, imagePlaceholder, imageBg, imageUrl }: {
 function MoreDeliverableCard({ title, desc, imagePlaceholder, imageUrl, reverse = false }: { title: string, desc: string, imagePlaceholder: string, imageUrl?: string, reverse?: boolean }) {
   return (
     <div className={`bg-[#1C1C1E] rounded-3xl overflow-hidden shadow-xl border border-gray-800 flex flex-col ${reverse ? 'md:flex-row-reverse' : 'md:flex-row'}`}>
-      <div className="w-full md:w-2/5 p-8 flex items-center justify-center min-h-[200px] relative bg-gray-900 border-gray-800 border-b md:border-b-0 md:border-r overflow-hidden">
+      <div className="w-full md:w-2/5 min-h-[240px] md:min-h-0 aspect-video md:aspect-auto relative bg-gray-900 border-gray-800 border-b md:border-b-0 md:border-r overflow-hidden">
         {imageUrl ? (
           <img src={imageUrl} alt={title} className="w-full h-full object-cover absolute inset-0" loading="lazy" width="662" height="465" />
         ) : (
