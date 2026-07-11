@@ -68,18 +68,18 @@ export function Offer() {
         <div className="bg-white rounded-3xl overflow-hidden shadow-xl w-full max-w-5xl flex flex-col md:flex-row border border-gray-100">
           <div className="w-full md:w-1/2 bg-[#EA9E18]">
              <img 
-               src="https://i.postimg.cc/rw0XLXBQ/Chat-GPT-Image-10-de-jul-de-2026-16-51-03.webp" 
+               src="/images/Chat-GPT-Image-10-de-jul-de-2026-16-51-03.webp" 
                alt="Mockup do Produto" 
                className="w-full h-full object-cover"
                loading="lazy"
-               width="1024"
-               height="1024"
+               width="800"
+               height="800"
              />
           </div>
           <div className="w-full md:w-1/2 p-8 md:p-10 flex flex-col justify-center items-center text-center">
             <div className="mb-6 border-b border-gray-200 pb-6 w-full flex justify-center">
               <img 
-                src="https://i.postimg.cc/28PwKsrb/novalogocodigo-copiar-4.webp" 
+                src="/images/novalogocodigo-copiar-4.webp" 
                 alt="Código Emocional da Riqueza - Protocolo de Desbloqueio" 
                 className="h-20 md:h-24 object-contain w-auto"
                 loading="lazy"

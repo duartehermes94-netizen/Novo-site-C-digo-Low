@@ -21,12 +21,12 @@ export function Problem() {
         <div className="relative w-full max-w-4xl mx-auto mb-20">
           <div className="relative">
             <img 
-              src="https://i.postimg.cc/FKXCqNVK/Copia-de-KCP-Bloco-3.webp" 
+              src="/images/Copia-de-KCP-Bloco-3.webp" 
               alt="Pensamentos e bloqueios emocionais" 
               className="w-full h-auto"
               loading="lazy"
-              width="1160"
-              height="990"
+              width="665"
+              height="568"
             />
           </div>
         </div>

@@ -8,7 +8,7 @@ export function Hero() {
         {/* Logo Placeholder */}
         <div className="mb-6 px-4 w-full max-w-4xl mx-auto flex justify-center">
           <img 
-            src="https://i.postimg.cc/bNKTB7p2/novalogocodigo-copiar3.webp" 
+            src="/images/novalogocodigo-copiar3.webp" 
             alt="Código Emocional da Riqueza - Protocolo de Desbloqueio" 
             className="h-16 md:h-20 object-contain w-auto"
             fetchPriority="high"
@@ -39,12 +39,12 @@ export function Hero() {
 
           <div className="w-full max-w-2xl mt-0">
             <img 
-              src="https://i.postimg.cc/9QFQKNdH/BLOQUEIO-EMOCIONAL.webp" 
+              src="/images/BLOQUEIO-EMOCIONAL.webp" 
               alt="Representação visual do cérebro com moedas" 
               className="w-full h-auto rounded-2xl shadow-2xl border border-gray-800/50"
               fetchPriority="high"
-              width="1280"
-              height="960"
+              width="662"
+              height="496"
             />
           </div>
         </div>
@@ -59,17 +59,17 @@ export function Hero() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6 pt-4">
             <TestimonialItem 
-              imgUrl="https://i.postimg.cc/BbvqBzsk/1.png" 
+              imgUrl="/images/1.webp" 
               alt="Depoimento 1" 
               summary="Virou outra pessoa após o desafio" 
             />
             <TestimonialItem 
-              imgUrl="https://i.postimg.cc/cCJsBzZV/2.png" 
+              imgUrl="/images/2.webp" 
               alt="Depoimento 2" 
               summary="Conseguiu a virada de chave que procurava" 
             />
             <TestimonialItem 
-              imgUrl="https://i.postimg.cc/PJqtQ7hg/3.png" 
+              imgUrl="/images/3.webp" 
               alt="Depoimento 3" 
               summary="Desbloqueou sua autossabotagem financeira" 
             />
@@ -95,7 +95,7 @@ function TestimonialItem({ imgUrl, summary, alt }: { imgUrl: string, summary: st
       <div className="absolute -top-12 md:-top-14 left-1/2 -translate-x-1/2 bg-[#F59E0B] text-gray-950 font-bold text-sm md:text-base px-4 py-2.5 rounded-xl shadow-lg w-11/12 max-w-[280px] text-center z-10">
         {summary}
       </div>
-      <img src={imgUrl} alt={alt} className="w-full h-auto rounded-2xl shadow-xl border border-gray-800 relative z-0" referrerPolicy="no-referrer" loading="lazy" width="750" height="1334" />
+      <img src={imgUrl} alt={alt} className="w-full h-auto rounded-2xl shadow-xl border border-gray-800 relative z-0" referrerPolicy="no-referrer" loading="lazy" width="500" height="889" />
     </div>
   );
 }
