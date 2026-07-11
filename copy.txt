@@ -1,0 +1,233 @@
+
+--- Hero.tsx ---
+
+<>
+<img
+src="https://i.ibb.co/BHXVP7wr/novo-logo-codigo-protocolo.png"
+alt="Código Emocional da Riqueza - Protocolo de Desbloqueio"
+/>
+Seu dinheiro some e você não consegue entender por quê?
+Descubra o bloqueio emocional que trava seu dinheiro e comece a destravar sua vida financeira em 10 minutos por dia.
+<img
+src="https://i.postimg.cc/9QFQKNdH/BLOQUEIO-EMOCIONAL.webp"
+alt="Representação visual do cérebro com moedas"
+/>
+Veja casos de pessoas que conseguiram transformar sua relação com dinheiro usando esse Protocolo de 7 Dias
+<TestimonialItem
+imgUrl="https://i.postimg.cc/BbvqBzsk/1.png"
+alt="Depoimento 1"
+summary="Virou outra pessoa após o desafio"
+/>
+<TestimonialItem
+imgUrl="https://i.postimg.cc/cCJsBzZV/2.png"
+alt="Depoimento 2"
+summary="Conseguiu a virada de chave que procurava"
+/>
+<TestimonialItem
+imgUrl="https://i.postimg.cc/PJqtQ7hg/3.png"
+alt="Depoimento 3"
+summary="Desbloqueou sua autossabotagem financeira"
+/>
+
+--- Problem.tsx ---
+
+A verdade nua e crua...
+Você não aguenta mais abrir a conta bancária e ver que o dinheiro sumiu de novo.
+É como se houvesse um buraco invisível na sua carteira. Por isso, você pensa:
+[IMAGEM PESSOA ANSIOSA COM DINHEIRO AQUI]
+"Ganho bem, mas no fim do mês não sobra nada. Que merda."
+"Tem algo errado comigo que não consigo juntar dinheiro."
+"Meus pais também eram assim... acho que é genético."
+"Se eu prosperar, algo ruim vai acontecer."
+Eu sei... Você não aguenta mais essa sensação de estar preso em um ciclo que não consegue quebrar. Estou certa?
+Mas e se você pudesse desbloquear sua relação com dinheiro em apenas 7 dias, sem esperar meses ou investir alto? Isso mudaria sua vida?
+Se a sua resposta for "SIM", o Protocolo Código Emocional da Riqueza é para você.
+
+--- Solution.tsx ---
+
+Com o Protocolo
+Código Emocional da Riqueza
+você vai:
+🧠 ENTENDER
+<FeatureCard
+icon=
+title="Entender exatamente por que o dinheiro some"
+desc="e finalmente parar de se culpar por isso"
+/>
+<FeatureCard
+icon=
+title="Desbloquear os sabotadores invisíveis"
+desc="aqueles pensamentos que te travam sem você perceber"
+/>
+❌ ELIMINAR
+<FeatureCard
+icon=
+title="Eliminar a culpa de prosperar"
+desc="e se permitir ganhar sem medo de algo ruim acontecer"
+/>
+<FeatureCard
+icon=
+title="Quebrar ciclos repetitivos"
+desc="que sua família passou para você e você está passando adiante"
+/>
+🛡️ CONSTRUIR
+<FeatureCard
+icon=
+title="Dormir tranquilo"
+desc="sabendo que você merece riqueza e está no caminho certo"
+/>
+<FeatureCard
+icon=
+title="Ter segurança financeira real"
+desc="não só na cabeça, mas na sua conta bancária"
+/>
+E tem mais!
+Veja tudo que você vai receber com o Código Emocional da Riqueza — Protocolo de Desbloqueio:
+<DeliverableCard
+title="Jornada de 7 Dias de Transformação Emocional"
+desc="7 capítulos progressivos, cada um desbloqueando um aspecto diferente da sua relação com dinheiro. Dia 1: O Cofre das Crenças. Dia 2: Os Sabotadores Invisíveis. Dia 3: Quebrando Correntes. Dia 4: Libertando-se da Culpa. Dia 5: Seu Relacionamento com o Dinheiro. Dia 6: Medo de Crescer. Dia 7: Sua Nova Identidade Próspera."
+imagePlaceholder="[IMAGEM JORNADA AQUI]"
+imageBg="bg-brand-orange"
+/>
+<DeliverableCard
+title="Reflexões Profundas + Perguntas Poderosas"
+desc="Cada dia com reflexão estruturada, pergunta que provoca autoconhecimento e ação prática para transformar emoções em atitudes reais."
+imagePlaceholder="[IMAGEM REFLEXÕES AQUI]"
+imageBg="bg-brand-green"
+/>
+<DeliverableCard
+title="Checklist de Autoanálise"
+desc="Identifique seus bloqueios específicos, seus gatilhos emocionais e seus padrões de sabotagem."
+imagePlaceholder="[IMAGEM CHECKLIST AQUI]"
+imageBg="bg-[#1C1C1E]"
+/>
+<DeliverableCard
+title="Ações Práticas Diárias"
+desc="Não é só teoria. Cada dia tem uma ação concreta que você faz em 10 minutos para reprogramar sua mente."
+imagePlaceholder="[IMAGEM AÇÕES AQUI]"
+imageBg="bg-[#D93B1F]"
+/>
+Ainda não acabou!
+Você também vai receber 3 bônus exclusivos:
+<MoreDeliverableCard
+title="🎁 BÔNUS 1: 21 Coisas Que Você Precisa Desapegar Para Prosperar"
+desc="Identifique e libere os 21 bloqueios emocionais e mentais que te afastam da abundância. Cada um com uma nova verdade libertadora e uma ação prática para aplicar imediatamente."
+imagePlaceholder="[IMAGEM BÔNUS 1 AQUI]"
+/>
+<MoreDeliverableCard
+title="🎁 BÔNUS 2: Guia Rápido — Hábitos de Quem Desbloqueia a Riqueza"
+desc="7 hábitos poderosos que pessoas bem-sucedidas aplicam diariamente. Transformação consistente, mentalidade de abundância, resultados comprováveis. Comece hoje mesmo."
+imagePlaceholder="[IMAGEM BÔNUS 2 AQUI]"
+reverse
+/>
+<MoreDeliverableCard
+title="🎁 BÔNUS 3: Ativação Matinal da Prosperidade — 30 Afirmações Poderosas"
+desc="Reprograme seu subconsciente com 30 afirmações que ativam sua frequência de abundância. Use pela manhã para alinhar seu dia com prosperidade."
+imagePlaceholder="[IMAGEM BÔNUS 3 AQUI]"
+/>
+
+--- Offer.tsx ---
+
+O Código Emocional da Riqueza — Protocolo de Desbloqueio é para você que:
+Enfim... Se você quer finalmente desbloquear sua riqueza e criar uma mentalidade de abundância, o Código Emocional da Riqueza — Protocolo de Desbloqueio é para você!
+Oferta especial
+Quanto custa sua liberdade emocional?
+Recapitulando tudo que você vai receber no Código Emocional da Riqueza — Protocolo de Desbloqueio:
+Tudo isso deveria custar: R$ 487,00
+Mas somente HOJE você pode ter acesso ao Código Emocional da Riqueza — Protocolo de Desbloqueio junto com todos os bônus por apenas:
+[IMAGEM MOCKUP PRODUTO AQUI]
+🧠
+Código Emocional da Riqueza
+— Protocolo de Desbloqueio
+De R$ 487,00 por apenas
+3x de R$ 22,33
+ou R$ 67,00 à vista
+QUERO DESBLOQUEAR MEU CÓDIGO EMOCIONAL AGORA
+Compre agora e receba seu acesso no e-mail imediatamente!
+
+--- Closing.tsx ---
+
+<>
+Vamos conversar sério?
+Agora você tem duas opções — e precisa escolher HOJE:
+❌
+Opção 1
+Continuar sofrendo com o ciclo
+Continuar ganhando bem, mas vendo o dinheiro sumir. Continuar se culpando por não conseguir juntar.
+Continuar com medo de prosperar. Continuar herdando os bloqueios da sua família.
+Continuar se sabotando sem entender por quê. Envelhecer sem ter construído segurança financeira real.
+Opção 2
+Desbloquear seu código emocional HOJE
+Investir R$ 67 em 7 dias que vão mudar sua relação com dinheiro para sempre.
+Entender por que você se sabota — e parar. Eliminar a culpa de prosperar.
+Dormir tranquila sabendo que você merece riqueza. Finalmente ter segurança financeira real.
+⏰ ATENÇÃO: Esta oferta é válida apenas HOJE até 23h59.
+Amanhã o preço volta a R$ 197,00.
+A opção 2 é a mais inteligente.
+Clique no botão abaixo e acesse agora o Código Emocional da Riqueza — Protocolo de Desbloqueio.
+Quem criou o Código Emocional da Riqueza
+[NOME]
+Criadora do Código Emocional da Riqueza
+Trabalha com a metodologia de Estudo de Ruminação Mental (E.R.M.) para identificar bloqueios profundos e transformá-los em oportunidades de crescimento.
+Acredita que a verdadeira riqueza começa dentro — e que quando você muda por dentro, os resultados aparecem por fora.
+
+--- FaqFooter.tsx ---
+
+<>
+[IMAGEM MOCKUP PRODUTO AQUI]
+Você merece uma nova história com dinheiro
+Não deixe para depois. A opção 2 é a mais inteligente.
+De R$ 487,00 por apenas
+3x de R$ 22,33
+ou R$ 67,00 à vista
+QUERO DESBLOQUEAR MEU CÓDIGO EMOCIONAL AGORA
+Compre agora e receba seu acesso no e-mail imediatamente!
+Perguntas Frequentes
+<FaqItem
+question="Posso começar do zero? Nunca trabalhei com transformação emocional."
+answer="Sim! O Código Emocional da Riqueza — Protocolo de Desbloqueio foi criado para iniciantes. Não precisa de conhecimento prévio. Cada dia é progressivo e fácil de acompanhar."
+isOpen
+/>
+<FaqItem
+question="Quanto tempo leva para ver resultado?"
+answer="Você pode começar a aplicar as ações no mesmo dia. Muitas pessoas relatam mudanças de mentalidade já no Dia 1. Transformações profundas acontecem ao longo dos 7 dias."
+/>
+<FaqItem
+question="Isso é só teoria ou tem ação prática mesmo?"
+answer="Cada dia tem uma ação concreta que você faz em 10 minutos. Não é só ler e pensar — é fazer. Você sai de cada dia com uma mudança real na sua mentalidade."
+/>
+<FaqItem
+question="Quanto tempo leva para o dinheiro parar de sumir?"
+answer="Você começa a entender por que o dinheiro some já no Dia 1. A partir daí, você consegue identificar seus padrões de sabotagem e começar a mudar. Resultados financeiros reais (dinheiro sobrando) começam a aparecer em 30 dias."
+/>
+<FaqItem
+question="É garantido? E se não funcionar para mim?"
+answer="Sim, 30 dias de garantia. Se não gostar, devolvemos 100% do seu dinheiro. Sem perguntas. Sem burocracia."
+/>
+<FaqItem
+question="Como acesso o material?"
+answer="Você recebe um link de acesso no e-mail imediatamente após a compra. Pode acessar de qualquer dispositivo (celular, tablet, computador)."
+/>
+<FaqItem
+question="Posso acessar para sempre?"
+answer="Sim! Acesso vitalício. Você pode revisar os 7 dias quantas vezes quiser."
+/>
+<FaqItem
+question="Qual é a forma de pagamento?"
+answer="Cartão de crédito (à vista ou parcelado em até 3x), PIX ou boleto."
+/>
+<FaqItem
+question="Meus dados estão seguros?"
+answer="Sim. Usamos criptografia de ponta a ponta. Seus dados nunca são compartilhados com terceiros."
+/>
+🧠
+Código Emocional da Riqueza
+— Protocolo de Desbloqueio
+Dúvidas? Fale conosco:
+contato@codigoemocionaldariqueza.com.br
+CNPJ: XX.XXX.XXX/0001-XX
+© 2026 Todos os direitos reservados.
+Aviso Legal: Este site não é afiliado ao Facebook, Instagram, Google ou qualquer outra plataforma de mídia social. Todos os nomes de marcas mencionados são propriedade de seus respectivos proprietários.
+Termos de Uso
+Política de Privacidade
+{isOpen && answer && (
