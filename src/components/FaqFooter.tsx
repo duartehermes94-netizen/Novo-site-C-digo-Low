@@ -1,6 +1,10 @@
 import { Plus } from "lucide-react";
 import { Button, SecurityBadges } from "./ui";
 
+import mockupImage from '@/src/assets/images/Chat-GPT-Image-10-de-jul-de-2026-16-51-03.webp';
+import logoImage from '@/src/assets/images/novalogocodigo-copiar-4.webp';
+import logoLightImage from '@/src/assets/images/novalogocodigo-copiar3.webp';
+
 export function FaqFooter() {
   return (
     <>
@@ -9,7 +13,7 @@ export function FaqFooter() {
         <div className="bg-white rounded-3xl overflow-hidden shadow-xl w-full max-w-5xl flex flex-col md:flex-row border border-gray-100">
           <div className="w-full md:w-1/2 bg-[#EA9E18]">
              <img 
-               src="/images/Chat-GPT-Image-10-de-jul-de-2026-16-51-03.webp" 
+               src={mockupImage}
                alt="Mockup do Produto" 
                className="w-full h-full object-cover"
                loading="lazy"
@@ -20,7 +24,7 @@ export function FaqFooter() {
           <div className="w-full md:w-1/2 p-8 md:p-10 flex flex-col justify-center items-center text-center">
             <div className="mb-6 border-b border-gray-200 pb-6 w-full flex justify-center">
               <img 
-                src="/images/novalogocodigo-copiar-4.webp" 
+                src={logoImage}
                 alt="Código Emocional da Riqueza - Protocolo de Desbloqueio" 
                 className="h-20 md:h-24 object-contain w-auto"
                 loading="lazy"
@@ -82,7 +86,7 @@ export function FaqFooter() {
           
           <div className="flex items-center justify-center mb-8">
             <img 
-              src="/images/novalogocodigo-copiar3.webp" 
+              src={logoLightImage}
               alt="Código Emocional da Riqueza - Protocolo de Desbloqueio" 
               className="h-16 md:h-20 object-contain w-auto"
               loading="lazy"

@@ -1,5 +1,7 @@
 import { AlertTriangle } from "lucide-react";
 
+import thoughtsImage from '@/src/assets/images/Copia-de-KCP-Bloco-3.webp';
+
 export function Problem() {
   return (
     <section className="bg-brand-dark text-white py-16 md:py-24 px-4">
@@ -21,7 +23,7 @@ export function Problem() {
         <div className="relative w-full max-w-4xl mx-auto mb-20">
           <div className="relative">
             <img 
-              src="/images/Copia-de-KCP-Bloco-3.webp" 
+              src={thoughtsImage}
               alt="Pensamentos e bloqueios emocionais" 
               className="w-full h-auto"
               loading="lazy"

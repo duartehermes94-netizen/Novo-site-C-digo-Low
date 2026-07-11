@@ -1,6 +1,12 @@
 import { ReactNode } from "react";
 import { ShieldCheck, Info, Check, TrendingUp, Brain, DollarSign, Clock } from "lucide-react";
 
+import logoImage from '@/src/assets/images/novalogocodigo-copiar3.webp';
+import cerebroImage from '@/src/assets/images/BLOQUEIO-EMOCIONAL.webp';
+import dep1Image from '@/src/assets/images/1.webp';
+import dep2Image from '@/src/assets/images/2.webp';
+import dep3Image from '@/src/assets/images/3.webp';
+
 export function Hero() {
   return (
     <>
@@ -8,7 +14,7 @@ export function Hero() {
         {/* Logo Placeholder */}
         <div className="mb-6 px-4 w-full max-w-4xl mx-auto flex justify-center">
           <img 
-            src="/images/novalogocodigo-copiar3.webp" 
+            src={logoImage}
             alt="Código Emocional da Riqueza - Protocolo de Desbloqueio" 
             className="h-16 md:h-20 object-contain w-auto"
             fetchPriority="high"
@@ -39,7 +45,7 @@ export function Hero() {
 
           <div className="w-full max-w-2xl mt-0">
             <img 
-              src="/images/BLOQUEIO-EMOCIONAL.webp" 
+              src={cerebroImage}
               alt="Representação visual do cérebro com moedas" 
               className="w-full h-auto rounded-2xl shadow-2xl border border-gray-800/50"
               fetchPriority="high"
@@ -59,17 +65,17 @@ export function Hero() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6 pt-4">
             <TestimonialItem 
-              imgUrl="/images/1.webp" 
+              imgUrl={dep1Image}
               alt="Depoimento 1" 
               summary="Virou outra pessoa após o desafio" 
             />
             <TestimonialItem 
-              imgUrl="/images/2.webp" 
+              imgUrl={dep2Image}
               alt="Depoimento 2" 
               summary="Conseguiu a virada de chave que procurava" 
             />
             <TestimonialItem 
-              imgUrl="/images/3.webp" 
+              imgUrl={dep3Image}
               alt="Depoimento 3" 
               summary="Desbloqueou sua autossabotagem financeira" 
             />

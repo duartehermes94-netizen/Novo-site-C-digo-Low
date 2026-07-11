@@ -1,6 +1,14 @@
 import { ReactNode } from "react";
 import { BookOpen, ArrowDown } from "lucide-react";
 
+import sol1Image from '@/src/assets/images/Chat-GPT-Image-7-de-jul-de-2026-23-50-49.webp';
+import sol2Image from '@/src/assets/images/Chat-GPT-Image-8-de-jul-de-2026-15-46-34.webp';
+import sol3Image from '@/src/assets/images/Chat-GPT-Image-8-de-jul-de-2026-11-35-55.webp';
+import sol4Image from '@/src/assets/images/Chat-GPT-Image-8-de-jul-de-2026-15-01-06.webp';
+import sol5Image from '@/src/assets/images/Design-sem-nome-(50).webp';
+import sol6Image from '@/src/assets/images/Design-sem-nome-(51).webp';
+import sol7Image from '@/src/assets/images/Design-sem-nome-(53).webp';
+
 export function Solution() {
   return (
     <section className="bg-brand-light pt-16 md:pt-24 pb-16 md:pb-24">
@@ -96,7 +104,7 @@ export function Solution() {
             desc="7 capítulos progressivos desbloqueando sua relação com dinheiro"
             imagePlaceholder="[IMAGEM JORNADA AQUI]"
             imageBg="bg-brand-orange"
-            imageUrl="/images/Chat-GPT-Image-7-de-jul-de-2026-23-50-49.webp"
+            imageUrl={sol1Image}
           />
           <h3 className="text-xl md:text-2xl font-bold text-brand-dark text-center mt-4 -mb-2">
             Em cada dia você irá ter acesso a:
@@ -106,21 +114,21 @@ export function Solution() {
             desc="Cada dia com reflexão estruturada, pergunta que provoca autoconhecimento e ação prática para transformar emoções em atitudes reais."
             imagePlaceholder="[IMAGEM REFLEXÕES AQUI]"
             imageBg="bg-brand-green"
-            imageUrl="/images/Chat-GPT-Image-8-de-jul-de-2026-15-46-34.webp"
+            imageUrl={sol2Image}
           />
           <DeliverableCard 
             title="Checklist de Autoanálise"
             desc="Identifique seus bloqueios específicos, seus gatilhos emocionais e seus padrões de sabotagem."
             imagePlaceholder="[IMAGEM CHECKLIST AQUI]"
             imageBg="bg-[#1C1C1E]"
-            imageUrl="/images/Chat-GPT-Image-8-de-jul-de-2026-11-35-55.webp"
+            imageUrl={sol3Image}
           />
           <DeliverableCard 
             title="Ações Práticas Diárias"
             desc="Não é só teoria. Cada dia tem uma ação concreta que você faz em 10 minutos para reprogramar sua mente."
             imagePlaceholder="[IMAGEM AÇÕES AQUI]"
             imageBg="bg-[#D93B1F]"
-            imageUrl="/images/Chat-GPT-Image-8-de-jul-de-2026-15-01-06.webp"
+            imageUrl={sol4Image}
           />
         </div>
       </div>
@@ -141,20 +149,20 @@ export function Solution() {
             title="🎁 BÔNUS 1: 21 Coisas Que Você Precisa Desapegar Para Prosperar"
             desc="Identifique e libere os 21 bloqueios emocionais e mentais que te afastam da abundância. Cada um com uma nova verdade libertadora e uma ação prática para aplicar imediatamente."
             imagePlaceholder="[IMAGEM BÔNUS 1 AQUI]"
-            imageUrl="/images/Design-sem-nome-(50).webp"
+            imageUrl={sol5Image}
           />
           <MoreDeliverableCard 
             title="🎁 BÔNUS 2: Guia Rápido|Hábitos de Quem Desbloqueia a Riqueza"
             desc="7 hábitos poderosos que pessoas bem-sucedidas aplicam diariamente. Transformação consistente, mentalidade de abundância, resultados comprováveis. Comece hoje mesmo."
             imagePlaceholder="[IMAGEM BÔNUS 2 AQUI]"
-            imageUrl="/images/Design-sem-nome-(51).webp"
+            imageUrl={sol6Image}
             reverse
           />
           <MoreDeliverableCard 
             title="🎁 BÔNUS 3: Ativação Matinal da Prosperidade|30 Afirmações Poderosas"
             desc="Reprograme seu subconsciente com 30 afirmações que ativam sua frequência de abundância. Use pela manhã para alinhar seu dia com prosperidade."
             imagePlaceholder="[IMAGEM BÔNUS 3 AQUI]"
-            imageUrl="/images/Design-sem-nome-(53).webp"
+            imageUrl={sol7Image}
           />
         </div>
 
