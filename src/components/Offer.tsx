@@ -82,7 +82,7 @@ export function Offer() {
               <img 
                 src="https://i.postimg.cc/28PwKsrb/novalogocodigo-copiar-4.webp"
                 alt="Código Emocional da Riqueza - Protocolo de Desbloqueio" 
-                className="h-20 md:h-24 object-contain w-auto"
+                className="h-20 md:h-24 object-contain w-auto max-w-full"
                 loading="lazy"
                 width="270"
                 height="112"

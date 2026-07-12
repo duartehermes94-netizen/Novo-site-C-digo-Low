@@ -23,7 +23,7 @@ export function FaqFooter() {
               <img 
                 src="https://i.postimg.cc/28PwKsrb/novalogocodigo-copiar-4.webp"
                 alt="Código Emocional da Riqueza - Protocolo de Desbloqueio" 
-                className="h-20 md:h-24 object-contain w-auto"
+                className="h-20 md:h-24 object-contain w-auto max-w-full"
                 loading="lazy"
                 width="270"
                 height="112"
@@ -85,7 +85,7 @@ export function FaqFooter() {
             <img 
               src="https://i.postimg.cc/bNKTB7p2/novalogocodigo-copiar3.webp"
               alt="Código Emocional da Riqueza - Protocolo de Desbloqueio" 
-              className="h-16 md:h-20 object-contain w-auto"
+              className="h-16 md:h-20 object-contain w-auto max-w-full"
               loading="lazy"
               width="270"
               height="112"

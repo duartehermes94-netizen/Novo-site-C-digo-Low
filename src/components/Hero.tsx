@@ -9,9 +9,9 @@ export function Hero() {
         {/* Logo Placeholder */}
         <div className="mb-6 px-4 w-full max-w-4xl mx-auto flex justify-center">
           <img 
-            src="https://i.postimg.cc/bNKTB7p2/novalogocodigo-copiar3.webp"
+            src="https://i.ibb.co/r2QzKSrc/novalogocodigo-copiar3.webp"
             alt="Código Emocional da Riqueza - Protocolo de Desbloqueio" 
-            className="h-16 md:h-20 object-contain w-auto"
+            className="h-16 md:h-20 object-contain w-auto max-w-full"
             fetchPriority="high"
             loading="eager"
             decoding="sync"
@@ -42,7 +42,7 @@ export function Hero() {
 
           <div className="w-full max-w-2xl mt-0">
             <img 
-              src="https://i.postimg.cc/D0QqJq2D/BLOQUEIO-EMOCIONAL-(1).webp"
+              src="https://i.ibb.co/jvCK5W1J/BLOQUEIO-EMOCIONAL-1.webp"
               alt="Representação visual do cérebro com moedas" 
               className="w-full h-auto rounded-2xl shadow-2xl border border-gray-800/50"
               fetchPriority="high"
