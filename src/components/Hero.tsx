@@ -9,7 +9,7 @@ export function Hero() {
         {/* Logo Placeholder */}
         <div className="mb-6 px-4 w-full max-w-4xl mx-auto flex justify-center">
           <img 
-            src="https://i.ibb.co/r2QzKSrc/novalogocodigo-copiar3.webp"
+            src="https://i.ibb.co/F464WHPr/Adobe-Express-file-1.webp"
             alt="Código Emocional da Riqueza - Protocolo de Desbloqueio" 
             className="h-16 md:h-20 object-contain w-auto max-w-full"
             fetchPriority="high"

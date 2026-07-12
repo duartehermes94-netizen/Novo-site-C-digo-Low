@@ -83,7 +83,7 @@ export function FaqFooter() {
           
           <div className="flex items-center justify-center mb-8">
             <img 
-              src="https://i.postimg.cc/bNKTB7p2/novalogocodigo-copiar3.webp"
+              src="https://i.ibb.co/F464WHPr/Adobe-Express-file-1.webp"
               alt="Código Emocional da Riqueza - Protocolo de Desbloqueio" 
               className="h-16 md:h-20 object-contain w-auto max-w-full"
               loading="lazy"
