@@ -1,3 +1,5 @@
+import logo from "@/assets/logo.webp";
+import heroImage from "@/assets/hero-image.webp";
 import { ReactNode } from "react";
 import { ShieldCheck, Info, Check, TrendingUp, Brain, DollarSign, Clock } from "lucide-react";
 
@@ -9,7 +11,7 @@ export function Hero() {
         {/* Logo Placeholder */}
         <div className="mb-6 px-4 w-full max-w-4xl mx-auto flex justify-center">
           <img 
-            src="/logo.webp"
+            src={logo}
             alt="Código Emocional da Riqueza - Protocolo de Desbloqueio" 
             className="h-16 md:h-20 object-contain w-auto max-w-full"
             fetchPriority="high"
@@ -42,7 +44,7 @@ export function Hero() {
 
           <div className="w-full max-w-2xl mt-0">
             <img 
-              src="/hero-image.webp"
+              src={heroImage}
               alt="Representação visual do cérebro com moedas" 
               className="w-full h-auto rounded-2xl shadow-2xl border border-gray-800/50"
               fetchPriority="high"
