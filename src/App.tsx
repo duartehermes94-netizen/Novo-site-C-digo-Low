@@ -2,23 +2,26 @@
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
-
+import { Suspense, lazy } from 'react';
 import { Hero } from "./components/Hero";
-import { Problem } from "./components/Problem";
-import { Solution } from "./components/Solution";
-import { Offer } from "./components/Offer";
-import { Closing } from "./components/Closing";
-import { FaqFooter } from "./components/FaqFooter";
+
+const Problem = lazy(() => import("./components/Problem").then(module => ({ default: module.Problem })));
+const Solution = lazy(() => import("./components/Solution").then(module => ({ default: module.Solution })));
+const Offer = lazy(() => import("./components/Offer").then(module => ({ default: module.Offer })));
+const Closing = lazy(() => import("./components/Closing").then(module => ({ default: module.Closing })));
+const FaqFooter = lazy(() => import("./components/FaqFooter").then(module => ({ default: module.FaqFooter })));
 
 export default function App() {
   return (
     <main className="min-h-screen bg-brand-light">
       <Hero />
-      <Problem />
-      <Solution />
-      <Offer />
-      <Closing />
-      <FaqFooter />
+      <Suspense fallback={<div className="h-20 w-full bg-brand-light"></div>}>
+        <Problem />
+        <Solution />
+        <Offer />
+        <Closing />
+        <FaqFooter />
+      </Suspense>
     </main>
   );
 }
