@@ -40,7 +40,7 @@ export function Hero() {
 
           <div className="w-full max-w-2xl mt-0">
             <img 
-              src="https://i.postimg.cc/9QFQKNdH/BLOQUEIO-EMOCIONAL.webp"
+              src="https://i.postimg.cc/D0QqJq2D/BLOQUEIO-EMOCIONAL-(1).webp"
               alt="Representação visual do cérebro com moedas" 
               className="w-full h-auto rounded-2xl shadow-2xl border border-gray-800/50"
               fetchPriority="high"
@@ -60,17 +60,17 @@ export function Hero() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6 pt-4">
             <TestimonialItem 
-              imgUrl="https://i.postimg.cc/BbvqBzsk/1.png"
+              imgUrl="https://i.postimg.cc/NfSg9ZzX/1.webp"
               alt="Depoimento 1" 
               summary="Virou outra pessoa após o desafio" 
             />
             <TestimonialItem 
-              imgUrl="https://i.postimg.cc/cCJsBzZV/2.png"
+              imgUrl="https://i.postimg.cc/jdmswBFJ/2.webp"
               alt="Depoimento 2" 
               summary="Conseguiu a virada de chave que procurava" 
             />
             <TestimonialItem 
-              imgUrl="https://i.postimg.cc/PJqtQ7hg/3.png"
+              imgUrl="https://i.postimg.cc/BQXSvJMB/3.webp"
               alt="Depoimento 3" 
               summary="Desbloqueou sua autossabotagem financeira" 
             />
