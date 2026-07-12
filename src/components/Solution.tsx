@@ -1,15 +1,5 @@
-import localImg0 from "../assets/images/Design-sem-nome-(50).webp";
-import localImg1 from "../assets/images/Design-sem-nome-(51).webp";
-import localImg2 from "../assets/images/Design-sem-nome-(53).webp";
 import { ReactNode } from "react";
 import { BookOpen, ArrowDown } from "lucide-react";
-import img0 from "../assets/images/Chat-GPT-Image-7-de-jul-de-2026-23-50-49.webp";
-import img1 from "../assets/images/Chat-GPT-Image-8-de-jul-de-2026-15-46-34.webp";
-import img2 from "../assets/images/Chat-GPT-Image-8-de-jul-de-2026-11-35-55.webp";
-import img3 from "../assets/images/Chat-GPT-Image-8-de-jul-de-2026-15-01-06.webp";
-import img4 from "../assets/images/Design-sem-nome-(50).webp";
-import img5 from "../assets/images/Design-sem-nome-(51).webp";
-import img6 from "../assets/images/Design-sem-nome-(53).webp";
 
 
 export function Solution() {
@@ -107,7 +97,7 @@ export function Solution() {
             desc="7 capítulos progressivos desbloqueando sua relação com dinheiro"
             imagePlaceholder="[IMAGEM JORNADA AQUI]"
             imageBg="bg-brand-orange"
-            imageUrl={img0}
+            imageUrl="https://i.postimg.cc/PfFWJVqw/Chat-GPT-Image-7-de-jul-de-2026-23-50-49.webp"
           />
           <h3 className="text-xl md:text-2xl font-bold text-brand-dark text-center mt-4 -mb-2">
             Em cada dia você irá ter acesso a:
@@ -117,21 +107,21 @@ export function Solution() {
             desc="Cada dia com reflexão estruturada, pergunta que provoca autoconhecimento e ação prática para transformar emoções em atitudes reais."
             imagePlaceholder="[IMAGEM REFLEXÕES AQUI]"
             imageBg="bg-brand-green"
-            imageUrl={img1}
+            imageUrl="https://i.postimg.cc/PfSG9pjH/Chat-GPT-Image-8-de-jul-de-2026-15-46-34.webp"
           />
           <DeliverableCard 
             title="Checklist de Autoanálise"
             desc="Identifique seus bloqueios específicos, seus gatilhos emocionais e seus padrões de sabotagem."
             imagePlaceholder="[IMAGEM CHECKLIST AQUI]"
             imageBg="bg-[#1C1C1E]"
-            imageUrl={img2}
+            imageUrl="https://i.postimg.cc/SRzb4zJR/Chat-GPT-Image-8-de-jul-de-2026-11-35-55.webp"
           />
           <DeliverableCard 
             title="Ações Práticas Diárias"
             desc="Não é só teoria. Cada dia tem uma ação concreta que você faz em 10 minutos para reprogramar sua mente."
             imagePlaceholder="[IMAGEM AÇÕES AQUI]"
             imageBg="bg-[#D93B1F]"
-            imageUrl={img3}
+            imageUrl="https://i.postimg.cc/50B5hVz0/Chat-GPT-Image-8-de-jul-de-2026-15-01-06.webp"
           />
         </div>
       </div>
@@ -152,20 +142,20 @@ export function Solution() {
             title="🎁 BÔNUS 1: 21 Coisas Que Você Precisa Desapegar Para Prosperar"
             desc="Identifique e libere os 21 bloqueios emocionais e mentais que te afastam da abundância. Cada um com uma nova verdade libertadora e uma ação prática para aplicar imediatamente."
             imagePlaceholder="[IMAGEM BÔNUS 1 AQUI]"
-            imageUrl={localImg0}
+            imageUrl="https://i.postimg.cc/j22LbBg8/Design-sem-nome-(50).webp"
           />
           <MoreDeliverableCard 
             title="🎁 BÔNUS 2: Guia Rápido|Hábitos de Quem Desbloqueia a Riqueza"
             desc="7 hábitos poderosos que pessoas bem-sucedidas aplicam diariamente. Transformação consistente, mentalidade de abundância, resultados comprováveis. Comece hoje mesmo."
             imagePlaceholder="[IMAGEM BÔNUS 2 AQUI]"
-            imageUrl={localImg1}
+            imageUrl="https://i.postimg.cc/JnB3j6Cb/Design-sem-nome-(51).webp"
             reverse
           />
           <MoreDeliverableCard 
             title="🎁 BÔNUS 3: Ativação Matinal da Prosperidade|30 Afirmações Poderosas"
             desc="Reprograme seu subconsciente com 30 afirmações que ativam sua frequência de abundância. Use pela manhã para alinhar seu dia com prosperidade."
             imagePlaceholder="[IMAGEM BÔNUS 3 AQUI]"
-            imageUrl={localImg2}
+            imageUrl="https://i.postimg.cc/P5FGVx0h/Design-sem-nome-(53).webp"
           />
         </div>
 
