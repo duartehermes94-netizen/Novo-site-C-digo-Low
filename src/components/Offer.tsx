@@ -1,4 +1,3 @@
-import logo from "@/assets/logo.webp";
 import { Check, X, Mail, ShieldCheck, MessageSquareHeart } from "lucide-react";
 import { Button, SecurityBadges } from "./ui";
 import { motion } from "motion/react";
@@ -81,7 +80,7 @@ export function Offer() {
           <div className="w-full md:w-1/2 p-8 md:p-10 flex flex-col justify-center items-center text-center">
             <div className="mb-6 border-b border-gray-200 pb-6 w-full flex justify-center">
               <img 
-                src={logo}
+                src="/logo.webp"
                 alt="Código Emocional da Riqueza - Protocolo de Desbloqueio" 
                 className="h-20 md:h-24 object-contain w-auto max-w-full"
                 loading="lazy"
