@@ -13,6 +13,8 @@ export function Hero() {
             alt="Código Emocional da Riqueza - Protocolo de Desbloqueio" 
             className="h-16 md:h-20 object-contain w-auto"
             fetchPriority="high"
+            loading="eager"
+            decoding="sync"
             width="270"
             height="112"
           />
@@ -44,6 +46,8 @@ export function Hero() {
               alt="Representação visual do cérebro com moedas" 
               className="w-full h-auto rounded-2xl shadow-2xl border border-gray-800/50"
               fetchPriority="high"
+              loading="eager"
+              decoding="sync"
               width="662"
               height="496"
             />
