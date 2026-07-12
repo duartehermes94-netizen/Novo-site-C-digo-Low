@@ -1,6 +1,11 @@
 import { ReactNode } from "react";
 import { ShieldCheck, Info, Check, TrendingUp, Brain, DollarSign, Clock } from "lucide-react";
 
+import logoImage from "../assets/images/novalogocodigo-copiar3.webp";
+import brainImage from "../assets/images/BLOQUEIO-EMOCIONAL.webp";
+import dep1 from "../assets/images/1.webp";
+import dep2 from "../assets/images/2.webp";
+import dep3 from "../assets/images/3.webp";
 
 export function Hero() {
   return (
@@ -9,7 +14,7 @@ export function Hero() {
         {/* Logo Placeholder */}
         <div className="mb-6 px-4 w-full max-w-4xl mx-auto flex justify-center">
           <img 
-            src="https://i.postimg.cc/bNKTB7p2/novalogocodigo-copiar3.webp"
+            src={logoImage}
             alt="Código Emocional da Riqueza - Protocolo de Desbloqueio" 
             className="h-16 md:h-20 object-contain w-auto"
             fetchPriority="high"
@@ -42,7 +47,7 @@ export function Hero() {
 
           <div className="w-full max-w-2xl mt-0">
             <img 
-              src="https://i.postimg.cc/D0QqJq2D/BLOQUEIO-EMOCIONAL-(1).webp"
+              src={brainImage}
               alt="Representação visual do cérebro com moedas" 
               className="w-full h-auto rounded-2xl shadow-2xl border border-gray-800/50"
               fetchPriority="high"
@@ -64,17 +69,17 @@ export function Hero() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6 pt-4">
             <TestimonialItem 
-              imgUrl="https://i.postimg.cc/NfSg9ZzX/1.webp"
+              imgUrl={dep1}
               alt="Depoimento 1" 
               summary="Virou outra pessoa após o desafio" 
             />
             <TestimonialItem 
-              imgUrl="https://i.postimg.cc/jdmswBFJ/2.webp"
+              imgUrl={dep2}
               alt="Depoimento 2" 
               summary="Conseguiu a virada de chave que procurava" 
             />
             <TestimonialItem 
-              imgUrl="https://i.postimg.cc/BQXSvJMB/3.webp"
+              imgUrl={dep3}
               alt="Depoimento 3" 
               summary="Desbloqueou sua autossabotagem financeira" 
             />
@@ -104,6 +109,3 @@ function TestimonialItem({ imgUrl, summary, alt }: { imgUrl: string, summary: st
     </div>
   );
 }
-
-
-
