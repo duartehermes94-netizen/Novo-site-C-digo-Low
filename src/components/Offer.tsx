@@ -1,11 +1,10 @@
 import { Check, X, Mail, ShieldCheck, MessageSquareHeart } from "lucide-react";
 import { Button, SecurityBadges } from "./ui";
-import { motion } from "motion/react";
 
 
 export function Offer() {
   return (
-    <section className="bg-brand-dark flex flex-col items-center pb-20">
+    <section className="bg-brand-dark flex flex-col items-center pb-0">
       
       {/* Para quem é */}
       <div className="w-full bg-black py-16 px-4 flex justify-center">
@@ -39,7 +38,7 @@ export function Offer() {
       </div>
 
       {/* The Offer Details */}
-      <div className="w-full bg-brand-light py-16 px-4 flex flex-col items-center rounded-t-[3rem]">
+      <div className="w-full bg-brand-light pt-16 pb-8 px-4 flex flex-col items-center rounded-[3rem] shadow-xl relative z-10">
         
         <div className="bg-white rounded-3xl p-8 md:p-10 w-full max-w-2xl shadow-sm border border-gray-100 mb-10 text-center">
           <h3 className="text-xl md:text-2xl font-bold text-brand-dark mb-8">
@@ -104,7 +103,7 @@ export function Offer() {
         </div>
 
         {/* Delivery Steps */}
-        <div className="w-full max-w-4xl mt-24 mb-8">
+        <div className="w-full max-w-4xl mt-16 mb-0">
           <h3 className="text-2xl md:text-3xl font-bold text-center text-brand-dark mb-10 leading-tight">
             Compre agora e receba seu <br className="hidden md:block"/> acesso no e-mail imediatamente!
           </h3>
@@ -162,13 +161,7 @@ function RecapItem({ text, price }: { text: string, price: string }) {
       </div>
       <div className="relative whitespace-nowrap shrink-0">
         <span className="text-brand-green font-bold">{price}</span>
-        <motion.div 
-          initial={{ scaleX: 0 }}
-          whileInView={{ scaleX: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, ease: "easeOut", delay: 0.2 }}
-          className="absolute left-[-5%] top-1/2 w-[110%] h-[2px] bg-red-500 -translate-y-1/2 rounded-full origin-left"
-        ></motion.div>
+        <div className="absolute left-[-5%] top-1/2 w-[110%] h-[2px] bg-red-500 -translate-y-1/2 rounded-full"></div>
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ export function Closing() {
   return (
     <>
       {/* Two Choices */}
-      <section className="bg-brand-dark py-20 px-4">
+      <section className="bg-brand-dark pt-8 pb-20 px-4">
         <div className="max-w-4xl mx-auto flex flex-col items-center">
           <div className="inline-block border border-gray-600 rounded-full px-6 py-2 text-sm text-gray-300 font-medium mb-6">
             Vamos conversar sério?
@@ -93,10 +93,13 @@ export function Closing() {
           <div className="w-full md:w-1/2 relative flex justify-center">
             {/* Orange rocket shape background placeholder */}
             <div className="absolute inset-0 bg-brand-orange rounded-full blur-3xl opacity-20 transform scale-75"></div>
-            <div className="relative z-10 w-full max-w-md aspect-[3/4] bg-gray-800 rounded-3xl border border-gray-700 overflow-hidden flex items-center justify-center">
-              <div className="text-gray-500 font-medium text-center px-4">
-                {'{PLACEHOLDER: Adicionar foto profissional + bio}'}
-              </div>
+            <div className="relative z-10 w-full max-w-md flex items-center justify-center">
+              <img 
+                src="/foto profissional.webp" 
+                alt="Izabel Zenith" 
+                className="w-full h-auto object-cover rounded-[2rem] shadow-xl"
+                loading="lazy"
+              />
             </div>
           </div>
         </div>
