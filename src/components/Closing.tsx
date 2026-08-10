@@ -95,7 +95,7 @@ export function Closing() {
             <div className="absolute inset-0 bg-brand-orange rounded-full blur-3xl opacity-20 transform scale-75"></div>
             <div className="relative z-10 w-full max-w-md flex items-center justify-center">
               <img 
-                src="/foto profissional.webp" 
+                src="./foto profissional.webp" 
                 alt="Izabel Zenith" 
                 className="w-full h-auto object-cover rounded-[2rem] shadow-xl"
                 loading="lazy"
