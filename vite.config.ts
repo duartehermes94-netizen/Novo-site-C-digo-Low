@@ -6,6 +6,7 @@ import viteCompression from 'vite-plugin-compression';
 
 export default defineConfig(() => {
   return {
+    base: './',
     plugins: [
       react(), 
       tailwindcss(),
