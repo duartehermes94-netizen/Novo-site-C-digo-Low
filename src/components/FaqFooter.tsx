@@ -1,4 +1,5 @@
-import { Plus } from "lucide-react";
+import { Plus, Minus } from "lucide-react";
+import { useState } from "react";
 import { Button, SecurityBadges } from "./ui";
 
 
@@ -32,11 +33,11 @@ export function FaqFooter() {
 
             <div className="mb-6 border-b border-gray-200 pb-6 w-full">
               <p className="text-gray-500 line-through text-lg">De R$ 487,00 por apenas</p>
-              <p className="text-5xl md:text-6xl font-bold text-brand-green tracking-tight my-2">3x de R$ 22,33</p>
+              <p className="text-5xl md:text-6xl font-bold text-brand-green tracking-tight my-2">8x de R$ 9,90</p>
               <p className="text-gray-600 font-medium">ou R$ 67,00 à vista</p>
             </div>
 
-            <Button className="mb-6 w-full max-w-sm text-sm md:text-base py-5 font-bold">
+            <Button href="https://pay.cakto.com.br/3bgmavv_855322" className="mb-6 w-full max-w-sm text-sm md:text-base py-5 font-bold">
               QUERO DESBLOQUEAR MEU CÓDIGO AGORA
             </Button>
             
@@ -117,18 +118,19 @@ export function FaqFooter() {
 }
 
 function FaqItem({ question, answer, isOpen = false }: { question: string, answer?: string, isOpen?: boolean }) {
+  const [open, setOpen] = useState(isOpen);
   return (
     <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden transition-all group">
-      <div className="p-5 flex items-center justify-between cursor-pointer">
+      <div className="p-5 flex items-center justify-between cursor-pointer" onClick={() => setOpen(!open)}>
         <div className="flex items-center gap-3">
-          <div className={`w-6 h-6 rounded-full flex items-center justify-center shrink-0 ${isOpen ? 'bg-gray-200' : 'bg-gray-100 group-hover:bg-gray-200'} transition-colors`}>
-            <Plus className={`w-4 h-4 text-gray-500 ${isOpen ? 'rotate-45' : ''} transition-transform`} />
+          <div className={`w-6 h-6 rounded-full flex items-center justify-center shrink-0 ${open ? 'bg-gray-200' : 'bg-gray-100 group-hover:bg-gray-200'} transition-colors`}>
+            {open ? <Minus className="w-4 h-4 text-gray-500 transition-transform" /> : <Plus className="w-4 h-4 text-gray-500 transition-transform" />}
           </div>
-          <h4 className="font-semibold text-brand-dark text-lg">{question}</h4>
+          <h4 className="font-semibold text-brand-dark text-lg text-left">{question}</h4>
         </div>
       </div>
-      {isOpen && answer && (
-        <div className="px-5 pb-5 pt-1 pl-14 text-gray-600 font-medium">
+      {open && answer && (
+        <div className="px-5 pb-5 pt-1 pl-14 text-gray-600 font-medium text-left">
           {answer}
         </div>
       )}

@@ -1,12 +1,17 @@
-import { ButtonHTMLAttributes } from "react";
+import { ButtonHTMLAttributes, AnchorHTMLAttributes } from "react";
 import { Lock, CheckSquare, BadgeDollarSign, Smartphone, ArrowDown, Mail, ShieldCheck, CheckCircle2, AlertTriangle, Plus, Shield } from "lucide-react";
 
-export function Button({ className = "", children, ...props }: ButtonHTMLAttributes<HTMLButtonElement>) {
+export function Button({ className = "", href, children, ...props }: ButtonHTMLAttributes<HTMLButtonElement> & AnchorHTMLAttributes<HTMLAnchorElement> & { href?: string }) {
+  const combinedClassName = `bg-brand-green hover:bg-green-600 transition-colors text-white font-bold text-lg md:text-xl py-4 px-8 rounded-xl shadow-lg w-full max-w-md mx-auto flex justify-center items-center ${className}`;
+  if (href) {
+    return (
+      <a href={href} className={combinedClassName} {...props}>
+        {children}
+      </a>
+    );
+  }
   return (
-    <button
-      className={`bg-brand-green hover:bg-green-600 transition-colors text-white font-bold text-lg md:text-xl py-4 px-8 rounded-xl shadow-lg w-full max-w-md mx-auto block ${className}`}
-      {...props}
-    >
+    <button className={combinedClassName} {...props}>
       {children}
     </button>
   );

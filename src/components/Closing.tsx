@@ -1,3 +1,4 @@
+import { Button } from "./ui";
 import { CheckCircle } from "lucide-react";
 
 export function Closing() {
@@ -67,9 +68,8 @@ export function Closing() {
             </p>
           </div>
           
-          <p className="text-white text-center max-w-md">
-            Então, clique no botão abaixo e acesse agora o Protocolo Código Emocional da Riqueza.
-          </p>
+          
+          
         </div>
       </section>
 

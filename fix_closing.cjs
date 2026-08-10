@@ -1,23 +1,10 @@
 const fs = require('fs');
-let code = fs.readFileSync('src/components/Closing.tsx', 'utf8');
 
-const original = `            <div className="relative z-10 w-full max-w-md flex items-center justify-center">
-              <img 
-                src="/foto profissional.webp" 
-                alt="Izabel Zenith" 
-                className="w-full h-auto object-cover"
-                loading="lazy"
-              />
-            </div>`;
+let closingCode = fs.readFileSync('src/components/Closing.tsx', 'utf8');
 
-const replacement = `            <div className="relative z-10 w-full max-w-md flex items-center justify-center">
-              <img 
-                src="/foto profissional.webp" 
-                alt="Izabel Zenith" 
-                className="w-full h-auto object-cover rounded-3xl shadow-2xl border border-gray-700/50"
-                loading="lazy"
-              />
-            </div>`;
+closingCode = closingCode.replace(
+  '<div className="mt-8 w-full">\n            <Button href="https://pay.cakto.com.br/3bgmavv_855322" className="w-full max-w-sm text-sm md:text-base py-5 font-bold">\n              QUERO DESBLOQUEAR MEU CÓDIGO AGORA\n            </Button>\n          </div>',
+  ''
+);
 
-code = code.replace(original, replacement);
-fs.writeFileSync('src/components/Closing.tsx', code);
+fs.writeFileSync('src/components/Closing.tsx', closingCode);

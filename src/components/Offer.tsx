@@ -90,11 +90,11 @@ export function Offer() {
 
             <div className="mb-6 border-b border-gray-200 pb-6 w-full">
               <p className="text-gray-500 line-through text-lg">De R$ 487,00 por apenas</p>
-              <p className="text-5xl md:text-6xl font-bold text-brand-green tracking-tight my-2">3x de R$ 22,33</p>
+              <p className="text-5xl md:text-6xl font-bold text-brand-green tracking-tight my-2">8x de R$ 9,90</p>
               <p className="text-gray-600 font-medium">ou R$ 67,00 à vista</p>
             </div>
 
-            <Button className="mb-6 w-full max-w-sm text-sm md:text-base py-5 font-bold">
+            <Button href="https://pay.cakto.com.br/3bgmavv_855322" className="mb-6 w-full max-w-sm text-sm md:text-base py-5 font-bold">
               QUERO DESBLOQUEAR MEU CÓDIGO AGORA
             </Button>
             
