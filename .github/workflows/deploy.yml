@@ -31,11 +31,16 @@ jobs:
 
       - name: 🚀 Deploy FTP para Hostinger - /site2/
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        env:
+          ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
         with:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
           port: 21
+          protocol: ftps
+          timeout: 600000
+          security: loose
           local-dir: ./dist/
           server-dir: /codigoemocionaldariqueza/
           dangerous-clean-slate: false
