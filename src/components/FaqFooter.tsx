@@ -11,7 +11,7 @@ export function FaqFooter() {
         <div className="bg-white rounded-3xl overflow-hidden shadow-xl w-full max-w-5xl flex flex-col md:flex-row border border-gray-100">
           <div className="w-full md:w-1/2 bg-[#EA9E18]">
              <img 
-               src="./Img 8.webp"
+               src="./Img8.webp"
                alt="Mockup do Produto" 
                className="w-full h-full object-cover"
                loading="lazy"
