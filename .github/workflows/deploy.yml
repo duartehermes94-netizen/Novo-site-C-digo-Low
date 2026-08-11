@@ -29,18 +29,14 @@ jobs:
       - name: 🔍 Verificar arquivos gerados
         run: ls -al dist/
 
-      - name: 🚀 Deploy FTP para Hostinger - /site2/
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        env:
-          ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
+      - name: 🚀 Deploy SFTP para Hostinger
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-          server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USER }}
+          server: ${{ secrets.FTP_HOST }}
+          port: 22
+          ssh_private_key: ${{ secrets.FTP_PASS }} # Se usar senha, mude para password: ${{ secrets.FTP_PASS }}
           password: ${{ secrets.FTP_PASS }}
-          port: 21
-          protocol: ftps
-          timeout: 600000
-          security: loose
-          local-dir: ./dist/
-          server-dir: /codigoemocionaldariqueza/
-          dangerous-clean-slate: false
+          local_path: './dist/*'
+          remote_path: '/codigoemocionaldariqueza/'
+          sftpArgs: '-o ConnectTimeout=5'
