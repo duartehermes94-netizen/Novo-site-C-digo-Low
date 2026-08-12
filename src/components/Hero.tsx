@@ -64,17 +64,17 @@ export function Hero() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6 pt-4">
             <TestimonialItem 
-              imgUrl="https://i.postimg.cc/NfSg9ZzX/1.webp"
+              imgUrl="./1.webp"
               alt="Depoimento 1" 
               summary="Virou outra pessoa após o desafio" 
             />
             <TestimonialItem 
-              imgUrl="https://i.postimg.cc/jdmswBFJ/2.webp"
+              imgUrl="./2.webp"
               alt="Depoimento 2" 
               summary="Conseguiu a virada de chave que procurava" 
             />
             <TestimonialItem 
-              imgUrl="https://i.postimg.cc/BQXSvJMB/3.webp"
+              imgUrl="./3.webp"
               alt="Depoimento 3" 
               summary="Desbloqueou sua autossabotagem financeira" 
             />
