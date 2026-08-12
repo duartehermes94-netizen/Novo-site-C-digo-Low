@@ -97,7 +97,7 @@ export function FaqFooter() {
           <p className="text-white font-medium mb-8">contato@codigoemocionaldariqueza.com.br</p>
 
           <p className="text-sm font-medium text-gray-500 mb-2">
-            CNPJ: XX.XXX.XXX/0001-XX
+            CNPJ: 63.221.578/0001-98
           </p>
           <p className="text-sm font-medium mb-8">
             © 2026 Todos os direitos reservados.
